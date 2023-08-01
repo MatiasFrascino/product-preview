@@ -1,0 +1,204 @@
+@media only screen and (max-width: 375px){
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    body{
+        background-color: hsl(30, 38%, 92%);
+    }
+    h1{
+        font-family: 'Fraunces', serif;
+        font-weight: 700;
+        font-size: 9vw;
+    }
+    h2{
+        font-family: 'Montserrat', sans-serif;
+        text-transform: uppercase;
+        color: hsl(228, 12%, 48%);
+        font-weight: 500;
+        letter-spacing: 2vw;
+        font-size: 4vw;
+    }
+    p{
+        font-family: 'Montserrat', sans-serif;
+        line-height: 6vw;
+        font-size: 4vw;
+        color: hsl(228, 12%, 48%); 
+    }
+    h3{
+        font-size: 10vw;
+        display: inline-block;
+        font-family: 'Fraunces', serif;
+        color: hsl(158, 36%, 37%) ;
+    }
+    h4{
+        font-family: 'Montserrat', sans-serif;
+        line-height: 6vw;
+        font-size: 4vw;
+        color: hsl(228, 12%, 48%); 
+        text-decoration: line-through;
+        font-weight: 500;
+        display: inline-block;
+    }
+    #price{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        width: 71%;
+    }
+    #btn{
+        background-color: hsl(158, 36%, 37%);
+        color: white;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 4vw;
+        width: 100%;
+        height: 15vw;
+        border-radius: 2vw;
+        border-style: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .btn__box{
+        display: flex;
+        width: 33vw;
+        justify-content: space-between;
+    }
+    .btn__box__img{
+        width: 4.5vw;
+        height: 4.5vw;
+    }
+    .box{
+        background-color: white;
+        margin-top: 8vw;
+        margin-left: 2.5vw;
+        margin-right: 2.5vw;
+        border-radius: 3vw;
+        height: auto;
+    }
+    .box__child{
+        padding: 5vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 95vw;
+    }
+    .imgMobile{
+        content: url(images/image-product-mobile.jpg);
+        width: 100%;
+        height: 100%;
+        border-top-right-radius: 3vw;
+        border-top-left-radius: 3vw;
+    }
+}
+@media only screen and (min-width: 376px){
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    body{
+        background-color: hsl(30, 38%, 92%);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+    h1{
+        font-family: 'Fraunces', serif;
+        font-weight: 700;
+        font-size: 3.3vw;
+    }
+    h2{
+        font-family: 'Montserrat', sans-serif;
+        text-transform: uppercase;
+        color: hsl(228, 12%, 48%);
+        font-weight: 500;
+        letter-spacing: 1vw;
+        font-size: 1.4vw;
+    }
+    p{
+        font-family: 'Montserrat', sans-serif;
+        line-height: 2vw;
+        font-size: 1.2vw;
+        color: hsl(228, 12%, 48%); 
+    }
+    h3{
+        font-size: 3vw;
+        display: inline-block;
+        font-family: 'Fraunces', serif;
+        color: hsl(158, 36%, 37%) ;
+    }
+    h4{
+        font-family: 'Montserrat', sans-serif;
+        line-height: 6vw;
+        font-size: 1vw;
+        color: hsl(228, 12%, 48%); 
+        text-decoration: line-through;
+        font-weight: 500;
+        display: inline-block;
+    }
+    #price{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        width: 80%;
+    }
+    #btn{
+        background-color: hsl(158, 36%, 37%);
+        color: white;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 1.4vw;
+        width: 100%;
+        height: 4.5vw;
+        border-radius: 1vw;
+        border-style: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #btn:hover{
+        background-color:hsl(212, 21%, 14%) ;
+    }
+    .btn__box{
+        display: flex;
+        width: 12vw;
+        justify-content: space-between;
+    }
+    .btn__box__img{
+        width: 2vw;
+        height: 2vw;
+    }
+    .box{
+        background-color: white;
+        margin: 0;
+        border-radius: 3vw;
+        height: 45vw;
+        width: 60vw;
+        overflow: hidden;
+        display: flex;
+        flex-direction: row;
+    }
+    .box__child__img{
+        width: 50%;
+    }
+    .box__child{
+        padding-left: 2vw;
+        padding-top: 3vw;
+        padding-right: 3vw;
+        padding-bottom: 3vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: auto;
+        width: 40%;
+    }
+    .imgMobile{
+        content: url(images/image-product-desktop.jpg);
+        width: 100%;
+        height: 100%;
+        border-top-right-radius: 3vw;
+        border-top-left-radius: 3vw;
+    }
+}
