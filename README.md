@@ -21,7 +21,7 @@ This is a project in which I created a responsive card to showcase a product (in
 ### Links
 
 - Solution URL: [https://github.com/MatiasFrascino/product-preview](https://matiasfrascino.github.io/product-preview/)
-- Live Site URL: [https://matiasfrascino.github.io/qr-code-component/](https://matiasfrascino.github.io/product-preview/)
+- Live Site URL: [https://matiasfrascino.github.io/product-preview/](https://matiasfrascino.github.io/product-preview/)
 
 ## My process
 
